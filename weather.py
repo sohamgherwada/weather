@@ -14,6 +14,6 @@ def main():
         response = requests.get(base_url)
         data = response.json()
         
-        print(data['current']['temperature'])
+        print(data['current']['temperature'],"°C")
 
 main()
